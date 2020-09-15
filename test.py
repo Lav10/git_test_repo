@@ -1,7 +1,7 @@
 import sys
 from datetime import datetime
 
-name = sys.argv[0]
+name = sys.argv[1]
 
 with open('/home/airflow/test.txt','w+') as f:
     text = f.read()
