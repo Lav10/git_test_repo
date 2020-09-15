@@ -5,5 +5,5 @@ name = sys.argv[1]
 
 with open('/home/airflow/test.txt','w+') as f:
     text = f.read()
-    text=text+"\nHello "+str(name)+", the current date and time is "+str(datetime.now())+". And this is check the git code update.\n"
+    text=text+"\nHello "+str(name)+", the current date and time is "+str(datetime.now())+".\n"
     f.write(text)
